@@ -218,12 +218,16 @@ label[for=search] {
     opacity: 0.3;
 }
 
+label[for=search] svg {
+    fill: #ffffff;
+}
+
 input[type=search]:hover + label[for=search],
 input[type=search]:focus + label[for=search] {
     opacity: 1;
 }
 
-input[type=search]:focus + label[for=search] path {
+input[type=search]:focus + label[for=search] svg {
     fill: #ed3543;
 }
 
@@ -247,7 +251,7 @@ input[type=search]:focus + label[for=search] path {
     left: 17px;
     width: 14px;
     height: 16px;
-    background: url("../img/svg/icon-bookmark.svg") no-repeat 0 0;
+    background: url("../img/svg/bookmark.svg") no-repeat 0 0;
     opacity: 0.3;
 }
 
@@ -262,7 +266,7 @@ input[type=search]:focus + label[for=search] path {
     left: 18px;
     width: 15px;
     height: 15px;
-    background: url("../img/svg/icon-cart.svg") no-repeat 0 0;
+    background: url("../img/svg/cart.svg") no-repeat 0 0;
     opacity: 0.3;
 }
 
@@ -357,7 +361,7 @@ input[type=search]:focus + label[for=search] path {
     left: 12px;
     width: 19px;
     height: 19px;
-    background: url("../img/svg/icon-phone.svg") no-repeat 0 0;
+    background: url("../img/svg/phone.svg") no-repeat 0 0;
 }
 
 .login,
@@ -395,16 +399,16 @@ input[type=search]:focus + label[for=search] path {
     left: 14px;
     width: 20px;
     height: 17px;
-    background: url("../img/svg/icon-login.svg") no-repeat 0 0;
+    background: url("../img/svg/login.svg") no-repeat 0 0;
 }
 
 .login:hover::before,
 .login:focus::before {
-    background-image: url("../img/svg/icon-login-hover.svg");
+    background-image: url("../img/svg/login-hover.svg");
 }
 
 .login:active::before {
-    background-image: url("../img/svg/icon-login.svg");
+    background-image: url("../img/svg/login.svg");
 }
 
 .registration {
@@ -451,16 +455,16 @@ input[type=search]:focus + label[for=search] path {
     left: 13px;
     width: 20px;
     height: 18px;
-    background: url("../img/svg/icon-user.svg") no-repeat 0 0;
+    background: url("../img/svg/user.svg") no-repeat 0 0;
 }
 
 .account-user:hover::before,
 .account-user:focus::before {
-    background-image: url("../img/svg/icon-user-hover.svg");
+    background-image: url("../img/svg/user-hover.svg");
 }
 
 .account-user:active::before {
-    background-image: url("../img/svg/icon-user.svg");
+    background-image: url("../img/svg/user.svg");
 }
 
 .account-logout {
@@ -469,16 +473,16 @@ input[type=search]:focus + label[for=search] path {
     height: 17px;
     margin-top: 2px;
     margin-right: 10px;
-    background: url("../img/svg/icon-logout.svg") no-repeat 0 0;
+    background: url("../img/svg/logout.svg") no-repeat 0 0;
 }
 
 .account-logout:hover,
 .account-logout:focus {
-    background-image: url("../img/svg/icon-logout-hover.svg");
+    background-image: url("../img/svg/logout-hover.svg");
 }
 
 .account-logout:active {
-    background-image: url("../img/svg/icon-logout.svg");
+    background-image: url("../img/svg/logout.svg");
 }
 
 .account-orders,
@@ -573,7 +577,7 @@ input[type=search]:focus + label[for=search] path {
 .promo-item:first-child {
     order: 1;
     background-color: #ffbf47;
-    background-image: url("../img/svg/icon-1.svg");
+    background-image: url("../img/svg/1.svg");
 }
 
 .promo-item-new::before {
@@ -589,14 +593,14 @@ input[type=search]:focus + label[for=search] path {
 .promo-item:nth-child(2) {
     order: 2;
     background-color: #3bbbe2;
-    background-image: url("../img/svg/icon-2.svg");
+    background-image: url("../img/svg/2.svg");
     background-position-x: 197px;
 }
 
 .promo-item:nth-child(3) {
     order: 3;
     background-color: #db90d8;
-    background-image: url("../img/svg/icon-3.svg");
+    background-image: url("../img/svg/3.svg");
     background-position-x: 191px;
 }
 
@@ -607,13 +611,13 @@ input[type=search]:focus + label[for=search] path {
 
 .promo-item-2:nth-child(1) {
     background-color: #8dd68e;
-    background-image: url("../img/svg/icon-4.svg");
+    background-image: url("../img/svg/4.svg");
     background-position-x: 196px;
 }
 
 .promo-item-2:nth-child(2) {
     background-color: #ffbf47;
-    background-image: url("../img/svg/icon-5.svg");
+    background-image: url("../img/svg/5.svg");
     background-position-x: 191px;
 }
 
@@ -732,12 +736,12 @@ input[type=search]:focus + label[for=search] path {
 
 .arrow-left {
     left: 25px;
-    background-image: url("../img/svg/icon-left.svg");
+    background-image: url("../img/svg/left.svg");
 }
 
 .arrow-right {
     right: 20px;
-    background-image: url("../img/svg/icon-right.svg");
+    background-image: url("../img/svg/right.svg");
 }
 
 #btn-1:checked ~ .promo-slider-1, 
@@ -873,7 +877,7 @@ input[type=search]:focus + label[for=search] path {
     left: 14px;
     width: 15px;
     height: 15px;
-    background-image: url("../img/svg/icon-cart.svg");
+    background-image: url("../img/svg/cart.svg");
     background-repeat: no-repeat;
     background-position: 0 0;
     opacity: 0.3;
@@ -1416,10 +1420,14 @@ input[type=search]:focus + label[for=search] path {
     right: -25px;
     width: 8px;
     height: 12px;
-    background-image: url("../img/svg/icon-right-small.svg");
+    background-image: url("../img/svg/right-small.svg");
 }
 
-.breadcrumb-list a:hover g {
+.breadcrumb-list svg {
+    fill: #c1c6ce;
+}
+
+.breadcrumb-list a:hover svg {
     fill: #ee3643;
 }
 
@@ -1427,7 +1435,7 @@ input[type=search]:focus + label[for=search] path {
     color: #ee3643;
 }
 
-.breadcrumb-list a:active g {
+.breadcrumb-list a:active svg {
     fill-opacity: 0.5;
 }
 
@@ -1745,7 +1753,7 @@ fieldset ul {
     cursor: pointer;
 }
 
-.catalog-toggle path {
+.catalog-toggle svg {
     fill: #c5c5c5;
 }
 
@@ -1753,13 +1761,13 @@ fieldset ul {
     padding-right: 0;
 }
 
-.catalog-toggle.active path,
-.catalog-toggle:active path {
+.catalog-toggle.active svg,
+.catalog-toggle:active svg {
     fill: #ed3543;
 }
 
-.catalog-toggle:hover path,
-.catalog-toggle:focus path {
+.catalog-toggle:not(.active):hover svg,
+.catalog-toggle:not(.active):focus svg {
     fill: #231f20;
 }
 

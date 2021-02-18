@@ -1,6 +1,9 @@
 const gulp = require('gulp');
 const webp = require('gulp-webp');
 const svgmin = require('gulp-svgmin');
+const svgstore = require("gulp-svgstore");
+const posthtml = require("gulp-posthtml");
+const include = require("posthtml-include");
 const del = require('del');
 const htmlmin = require('gulp-htmlmin');
 const autoprefixer = require('autoprefixer')
@@ -16,6 +19,16 @@ gulp.task('webp', () =>
     .pipe(webp({quality: 90}))
     .pipe(gulp.dest('build/img/webp/'))
 );
+
+gulp.task("sprite", function () {
+  return gulp.src("source/img/svg/icon-*.svg")
+      .pipe(svgmin())
+      .pipe(svgstore({
+          inlineSVG: true
+      }))
+      .pipe(rename("sprite.svg"))
+      .pipe(gulp.dest("build/img/svg"));
+});
 
 gulp.task('svg', () => {
   return gulp.src('source/img/**/*.svg')
@@ -42,6 +55,9 @@ gulp.task('copy', () => {
 
 gulp.task('html', () => {
   return gulp.src('source/*.html')
+    .pipe(posthtml([
+      include()
+    ]))
     .pipe(htmlmin({ 
       collapseWhitespace: true,
       ignoreCustomFragments: [ /<br>\s/gi ] 
@@ -76,7 +92,7 @@ gulp.task ('server', function() {
   gulp.watch('source/css/*.css', gulp.series('style'));
   gulp.watch('source/*.html', gulp.series('html', 'refresh'));
   gulp.watch('source/js/*.js', gulp.series('js', 'refresh'));
-  gulp.watch('source/img/svg/*.svg', gulp.series('svg', 'refresh'));
+  gulp.watch('source/img/svg/*.svg', gulp.series('svg', 'sprite', 'html', 'refresh'));
 });
 
 gulp.task('refresh', function (done) {
@@ -84,5 +100,5 @@ gulp.task('refresh', function (done) {
   done();
 });
 
-gulp.task('build', gulp.series('clean', 'copy', 'webp', 'html', 'style', 'js'));
+gulp.task('build', gulp.series('clean', 'copy', 'webp', 'sprite', 'html', 'style', 'js'));
 gulp.task('start', gulp.series('build', 'server'));
