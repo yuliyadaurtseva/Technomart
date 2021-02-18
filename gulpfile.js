@@ -15,9 +15,9 @@ const uglify = require('gulp-uglify');
 const server = require('browser-sync').create();
 
 gulp.task('webp', () =>
-  gulp.src('source/img/*.{jpg,png}')
+  gulp.src('source/img/**/*.{jpg,png}')
     .pipe(webp({quality: 90}))
-    .pipe(gulp.dest('build/img/webp/'))
+    .pipe(gulp.dest('build/img/'))
 );
 
 gulp.task("sprite", function () {

@@ -587,7 +587,7 @@ input[type=search]:focus + label[for=search] svg {
     right: 0;
     width: 60px;
     height: 59px;
-    background: url("../img/png/new.png") no-repeat 0 0;
+    background: url("../img/new.png") no-repeat 0 0;
 }
 
 .promo-item:nth-child(2) {
@@ -665,11 +665,11 @@ input[type=search]:focus + label[for=search] svg {
 }
 
 .promo-slider-1 {
-    background-image: url("../img/jpg/slider-1.jpg");
+    background-image: url("../img/slider-1.jpg");
 }
 
 .promo-slider-2 {
-    background-image: url("../img/jpg/slider-2.jpg");
+    background-image: url("../img/slider-2.jpg");
     background-position: -7px 0;
 }
 
@@ -793,7 +793,7 @@ input[type=search]:focus + label[for=search] svg {
     right: -1px;
     width: 60px;
     height: 59px;
-    background-image: url("../img/png/new.png");
+    background-image: url("../img/new.png");
     background-repeat: no-repeat;
     background-position: 0 0;  
 }
@@ -998,7 +998,7 @@ input[type=search]:focus + label[for=search] svg {
     left: 230px;
     width: 10px;
     height: 279px;
-    background-image: url("../img/png/shadow.png");
+    background-image: url("../img/shadow.png");
     background-repeat: no-repeat;
     background-position: 0 0;
 }
@@ -1051,17 +1051,17 @@ input[type=search]:focus + label[for=search] svg {
 }
 
 .service-slider-1 {
-    background-image: url("../img/png/delivery.png");
+    background-image: url("../img/delivery.png");
     background-position: 231px 23px;
 }
 
 .service-slider-2 {
-    background-image: url("../img/png/warranty.png");
+    background-image: url("../img/warranty.png");
     background-position: 319px 1px;
 }
 
 .service-slider-3 {
-    background-image: url("../img/png/credit.png");
+    background-image: url("../img/credit.png");
     background-position: 245px -1px;
 }
 
@@ -1178,7 +1178,7 @@ input[type=search]:focus + label[for=search] svg {
     height: 446px;
     margin-top: -223px;
     margin-left: -470px;
-    background-image: url("../img/jpg/map-big.jpg");
+    background-image: url("../img/map-big.jpg");
     filter: drop-shadow(0 0 8px rgba(47,42,43,0.5));
 }
 
