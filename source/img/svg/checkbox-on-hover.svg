@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 23" width="27" height="23">
+	<defs>
+		<image width="27" height="23" id="img1" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNS4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIyN3B4Ig0KCSBoZWlnaHQ9IjIzcHgiIHZpZXdCb3g9IjAgMCAyNyAyMyIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjcgMjMiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGcgaWQ9IkxheWVyXzEiPg0KPC9nPg0KPGcgaWQ9IkxheWVyXzIiPg0KCTxnPg0KCQk8cG9seWdvbiBwb2ludHM9IjcuMjg1LDcuNDg2IDQuNDU2LDEwLjMxNSAxMi4yMzksMTguMDk4IDI2LjE3MSw0LjE2NiAyMy4zNDMsMS4zMzcgMTIuMjM5LDEyLjQzOSAJCSIvPg0KCQk8cGF0aCBkPSJNMjEsMjBjMCwwLjU0Mi0wLjQ1OCwxLTEsMUgzYy0wLjU0MiwwLTEtMC40NTgtMS0xVjNjMC0wLjU0MiwwLjQ1OC0xLDEtMWgxNi45MDhsMS41ODUtMS41ODVDMjEuMDUxLDAuMTU4LDIwLjU0NSwwLDIwLDANCgkJCUgzQzEuMzUsMCwwLDEuMzUsMCwzdjE3YzAsMS42NSwxLjM1LDMsMywzaDE3YzEuNjUsMCwzLTEuMzUsMy0zdi05LjgyOWwtMiwyVjIweiIvPg0KCTwvZz4NCjwvZz4NCjwvc3ZnPg0K"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="top menu">
+		<g id="Group 9">
+			<use id="checkbox-on" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+		</g>
+	</g>
+</svg>

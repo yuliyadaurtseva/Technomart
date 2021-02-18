@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 17" width="21" height="17">
+	<defs>
+		<image width="21" height="17" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAARBAMAAADAqPqzAAAAAXNSR0IB2cksfwAAACdQTFRFMkJcMkJcMkJcMkJcMkJcMkJcMkJcMkJcMkJcMkJcMkJcMkJcMkJc5mXcRwAAAA10Uk5TABF3iCLM/93uu6pVRNqjLskAAAB5SURBVHicY2AQMjZWYHBgAAHGsLS0AoZWARCbM0lQkIExLRDEFlsAkkxLBUmIGYDZYAkxA5bQ0NA0sISYAXcaGAQisVOR2GkHEOwkJHEFsJnKxsZgYbj5QGEG9gAwGyTMwJwJdCcjWJiBwSItLYBhEgME7N4NcT0DAO4/IxKpsY3bAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="top menu">
+		<g id="Group 4">
+			<use id=".icon-logout" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>
